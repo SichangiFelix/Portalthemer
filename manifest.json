@@ -18,5 +18,7 @@
     "content_scripts": [{
         "matches": ["https://portal.ku.ac.ke/secure/student/StuPortal.aspx"],
         "css": ["main.css"]
+
+        
     }]
 }
