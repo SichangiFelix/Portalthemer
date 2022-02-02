@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Portalthemer",
+    "description": "Alter some design elements in my school portal.",
+    "version": "1.0",
+    "icons": {
+        "16": "/images/portal_28.png",
+        "48": "/images/portal_48.png",
+        "128": "/images/portal_127.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "/images/portal_28-2.png",
+            "48": "/images/portal_48-2.png",
+            "128": "/images/portal_127-2.png"
+        }
+    },
+    "content_scripts": [{
+        "matches": ["https://portal.ku.ac.ke/secure/student/StuPortal.aspx"],
+        "css": ["main.css"]
+    }]
+}
